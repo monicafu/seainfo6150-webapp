@@ -1,0 +1,9 @@
+.header {
+    color:rgb(204, 0, 0);
+    margin:5px 0px;
+}
+
+.dateTime {
+    font-weight:bold;
+    font-size:14px;
+}

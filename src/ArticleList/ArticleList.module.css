@@ -1,0 +1,14 @@
+.container {
+    background: rgb(153, 153, 153);
+    border: dashed rgb(109, 109, 109) 1px;
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 0px;
+}
+
+.list {
+    background: rgb(238, 238, 238);
+    border: solid rgb(204, 0, 0) 1px;
+    margin: 20px;
+    padding: 10px;
+}
