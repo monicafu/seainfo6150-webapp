@@ -1,9 +1,25 @@
 .container {
     background: #eee;
+    background-image: linear-gradient(to right, #ff6666, #eee 15%);
     border: 1px solid #c00;
+    border-radius:10px ;
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
+    height:180px;
+    box-shadow: 0 5px 10px 0px #333333; 
+}
+
+.articleImage {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-top: 16px;
+}
+
+.content {
+    display: inline-block;
+    width: 80%;
 }
 
 .title {

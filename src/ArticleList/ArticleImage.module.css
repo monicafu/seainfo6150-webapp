@@ -1,0 +1,7 @@
+.articleImage {
+    border:5px solid #c00;
+    border-radius:50%;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 5px 10px 0px #404040; 
+}
