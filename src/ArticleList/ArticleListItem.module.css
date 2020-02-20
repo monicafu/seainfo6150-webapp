@@ -5,23 +5,15 @@
     border: 1px solid #c00;
     border-radius:10px ;
     display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
-    position: relative;
-    height: auto;
 }
 
 .articleImage {
-    width: 30%;
     vertical-align: top;
-    margin-top: 10px;
+    margin-bottom: 50px;
     padding-left: 10px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
 }
 
 .article {
