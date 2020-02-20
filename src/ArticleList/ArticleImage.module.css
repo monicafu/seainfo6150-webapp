@@ -1,7 +1,6 @@
 .articleImage {
     border:10px solid #c00;
     border-radius:50%;
-    width: 55%;
-    height: 45%;
+    width: 50%;
     box-shadow: 0 5px 10px 0px #404040; 
 }
