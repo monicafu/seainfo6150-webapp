@@ -7,3 +7,21 @@
     padding:7px 45px;
     margin-bottom: 30px;
 }
+
+@media (max-width:550px) {
+    .slugButton {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:800px) {
+    .slugButton {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:1500px) {
+    .slugButton {
+        font-size: 1.5rem;
+    }
+}

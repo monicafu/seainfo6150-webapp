@@ -6,6 +6,36 @@
     border: 1px dashed #666;
     border-radius:16px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 15px 30px;
+    min-width: 400px;
 }
+
+@media (min-width: 550px) {
+    .container {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+@media (min-width: 1500px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
